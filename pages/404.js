@@ -5,18 +5,7 @@ import { useTheme } from "next-themes";
 import NextLink from "next/link";
 
 export default function NotFound() {
-  const ExternalLink = ({ href, children }) => (
-    <a
-      className="text-gray-700 transition hover:text-gray-500"
-      target="_blank"
-      rel="noopener noreferrer"
-      href={href}
-    >
-      {children}
-    </a>
-  );
-
-  const [mounted, setMounted] = useState(false);
+  const [ mounted, setMounted ] = useState(false);
   const { theme, setTheme } = useTheme();
 
   useEffect(() => setMounted(true), []);
