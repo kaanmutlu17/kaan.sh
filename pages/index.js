@@ -33,7 +33,7 @@ export default function Home() {
 
   useEffect(async () => {
     await updateSong();
-    setInterval(async () => await updateSong(), 30 * 1000);
+    setInterval(async () => await updateSong(), 1 * 1000);
   }, [])
 
   return (
