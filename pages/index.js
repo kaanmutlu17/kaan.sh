@@ -91,8 +91,8 @@ export default function Home() {
             <div className="flex space-y-2 items-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 w-80 py-2 px-3 h-20 rounded-lg bg-opacity-30 bg-gray-800 border border-gray-900">
             <img src={song.photo} className="w-14 h-14 rounded-lg" />
             <div className="ml-4">
-              <h1 className="w-56 truncate font-semibold">Listening to {lastFM.song.name}</h1>
-             <h1 className="w-56 truncate text-sm">by {lastFM.song.artist} on Spotify</h1>
+              <h1 className="w-56 truncate font-semibold">Listening to {song.name}</h1>
+             <h1 className="w-56 truncate text-sm">by {song.artist} on Spotify</h1>
                 </div>
         </div>
           </div>
