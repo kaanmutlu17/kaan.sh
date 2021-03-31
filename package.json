@@ -44,7 +44,8 @@
     "simple-functional-loader": "^1.2.1",
     "styled-components": "^5.2.2",
     "swr": "^0.3.11",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "use-lanyard": "0.0.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
