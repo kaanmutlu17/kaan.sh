@@ -91,8 +91,8 @@ export default function Home() {
           <div className="flex items-center space-x-5 border-2 border-black h-24 rounded-2xl dark:border-white" style={{ width: '21.5rem' }}>
             <img src={song.photo} className="rounded-lg ml-4 w-16 h-16" />
             <div className="flex flex-col">
-              <h1 style={{ color }}>{song.name}</h1>
-              <h1 style={{ color }}>{song.artist}</h1>
+              <h1 style={{ color }}>Listening to <b>{song.name}</b></h1>
+              <h1 style={{ color }}>by <b>{song.artist}</b></h1>
             </div>
           </div>
         </div>
