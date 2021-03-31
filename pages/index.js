@@ -87,13 +87,14 @@ export default function Home() {
         PGP Fingerprint: <ExternalLink href="https://kaan.sh/kaanmutlu.asc"><code>ADFE 6659 69BA B089 F1A0 C96E A62A E36C 4EA5 8164</code></ExternalLink>
       </h2>
       { song.playing ? (
-        <div className="px-40 py-5" >
-          <div className="flex items-center space-x-5 border-2 border-black h-24 rounded-2xl dark:border-white" style={{ width: '21.5rem' }}>
-            <img src={song.photo} className="rounded-lg ml-4 w-16 h-16" />
-            <div className="flex flex-col">
-              <h1 style={{ color }}>Listening to <b>{song.name}</b></h1>
-              <h1 style={{ color }}>by <b>{song.artist}</b></h1>
-            </div>
+        <div className="animate__animated animate__bounceInLeft ">
+            <div className="flex space-y-2 items-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 w-80 py-2 px-3 h-20 rounded-lg bg-opacity-30 bg-gray-800 border border-gray-900">
+            <img src={song.photo} className="w-14 h-14 rounded-lg" />
+            <div className="ml-4">
+              <h1 className="w-56 truncate font-semibold">Listening to {lastFM.song.name}</h1>
+             <h1 className="w-56 truncate text-sm">by {lastFM.song.artist} on Spotify</h1>
+                </div>
+        </div>
           </div>
         </div>
       ) : null }
