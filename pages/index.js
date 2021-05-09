@@ -60,16 +60,16 @@ export default function Home() {
         </ExternalLink>
       </div>
       <h2 className="mb-10 text-gray-600 dark:text-gray-400">
-        CEO & Founder of Sanvia Digital | Software Developer
+        ceo & founder of sanvia digital | software developer
       </h2>
       <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
-        About
+        .about
       </h1>
       <h2 className="mb-10 text-gray-600 dark:text-gray-400">
         Hello, I'm Kaan Mutlu. I am a 16 year old software developer. I am also the CEO & Founder of Sanvia Digital media company. You can click the mail icon to contact me.
       </h2>
       <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
-        Contact
+        .contact
       </h1>
       <h2 className="mb-1 text-gray-600 dark:text-gray-400">
         LinkedIn: <ExternalLink href="https://linkedin.com/in/kaanmutlu17"><code>kaanmutlu17</code></ExternalLink>
